@@ -1,0 +1,4 @@
+Crete Mantrack csv file to add, update, and delete, for that we are using 3 services,
+1. s3 service file - to upload csv file from swagger endpoint
+2. iwd-manual-tracker-service - to implement business logic
+3. iwd-configuration-batch -  to implement code and interact with manual tracker through clientapi
